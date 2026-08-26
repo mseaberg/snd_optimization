@@ -1,0 +1,148 @@
+{
+  "L0": {
+    "IM1L0": {
+      "prefix": "IM1L0:XTES:"
+    },
+    "IM2L0": {
+      "prefix": "IM2L0:XTES:",
+      "wfs": "PF1L0"
+    },
+    "IM3L0": {
+      "prefix": "IM3L0:PPM:"
+    },
+    "IM4L0": {
+      "prefix": "IM4L0:XTES:"
+    },
+    "IM5L0": {
+      "prefix": "IM5L0:PPM:"
+    },
+    "xcs_yag1": {
+      "prefix": "XCS:GIGE:YAG1:"
+    },
+    "mec_yag0": {
+      "prefix": "HXX:HXM:CVV:01:"
+    },
+    "xcs_yag2": {
+      "prefix": "HFX:DG2:CVV:01:"
+    },
+    "xcs_yag3": {
+      "prefix": "XCS:GIGE:YAG3:"
+    },
+    "xcs_yag3m": {
+      "prefix": "XCS:GIGE:YAG3M:"
+    },
+    "cxi_dg1_yag": {
+      "prefix": "CXI:DG1:P6740:"
+    },
+    "mfx_dg1_yag": {
+      "prefix": "MFX:GIGE:DG1:YAG:"
+    },
+    "mec_yag1": {
+      "prefix": "MEC:HXM:CVV:01:"
+    }
+  },
+  "L1": {
+    "IM1L1": {
+      "prefix": "IM1L1:PPM:"
+    },
+    "IM2L1": {
+      "prefix": "IM2L1:PPM:"
+    },
+    "IM3L1": {
+      "prefix": "IM3L1:PPM:"
+    },
+    "IM4L1": {
+      "prefix": "IM4L1:PPM:"
+    }
+  },
+  "L2": {
+      "IM1L2": {
+          "prefix": "IM1L2:PPM:"
+      },
+      "IM2L2": {
+          "prefix": "IM2L2:PPM:",
+          "wfs": "PF2L2"
+      }
+  },
+  "K0": {
+    "IM1K0": {
+      "prefix": "IM1K0:XTES:"
+    },
+    "IM2K0": {
+      "prefix": "IM2K0:XTES:",
+      "wfs": "PF1K0"
+    }
+  },
+  "K1": {
+    "IM1K1": {
+      "prefix": "IM1K1:PPM:"
+    },
+    "IM2K1": {
+      "prefix": "IM2K1:PPM:"
+    }
+  },
+  "K2": {
+    "SL1K2": {
+      "prefix": "SL1K2:EXIT:"
+    },
+    "IM1K2": {
+      "prefix": "IM1K2:PPM:"
+    },
+    "IM2K2": {
+      "prefix": "IM2K2:PPM:"
+    },
+    "IM3K2": {
+      "prefix": "IM3K2:PPM:"
+    },
+    "IM4K2": {
+      "prefix": "IM4K2:PPM:"
+    },
+    "IM5K2": {
+      "prefix": "IM5K2:PPM:",
+      "wfs": "PF1K2",
+      "hfm": "MR3K2:KBH",
+      "vfm": "MR4K2:KBV",
+      "hutch": "rix",
+      "IP": "qRIXS"
+    },
+    "IM6K2": {
+      "prefix": "IM6K2:PPM:",
+      "wfs": "PF2K2",
+      "hfm": "MR3K2:KBH",
+      "vfm": "MR4K2:KBV",
+      "hutch": "rix",
+      "IP": "chemRIXS"
+    }
+  },
+  "K3": {
+    "IM1K3": {
+      "prefix": "IM1K3:PPM:"
+    }
+  },
+  "K4": {
+    "IM1K4": {
+      "prefix": "IM1K4:XTES:"
+    },
+    "IM2K4": {
+      "prefix": "IM2K4:PPM:"
+    },
+    "IM3K4": {
+      "prefix": "IM3K4:PPM:"
+    },
+    "IM4K4": {
+      "prefix": "IM4K4:PPM:"
+    },
+    "IM5K4": {
+      "prefix": "IM5K4:PPM:",
+      "wfs": "PF1K4",
+      "hfm": "MR2K4:KBO",
+      "vfm": "MR3K4:KBO",
+      "hutch": "tmo",
+      "IP": "IP1"
+    },
+    "IM6K4": {
+      "prefix": "IM6K4:PPM:",
+      "wfs": "PF2K4"
+    }
+  }
+}

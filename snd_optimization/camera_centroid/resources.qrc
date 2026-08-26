@@ -1,0 +1,7 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="icons">
+        <file alias="blue">icons/blue_cross.svg</file>
+        <file alias="red">icons/red_cross.svg</file>
+    </qresource>
+</RCC>

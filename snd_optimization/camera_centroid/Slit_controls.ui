@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>400</width>
+    <height>99</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="1" colspan="2">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>Horizontal</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3" colspan="2">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>Vertical</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="label">
+     <property name="text">
+      <string>Gap</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="PyDMLineEdit" name="hGapLineEdit">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="monitorDisp" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="PyDMLabel" name="hGapLabel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="3">
+    <widget class="PyDMLineEdit" name="vGapLineEdit">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="4">
+    <widget class="PyDMLabel" name="vGapLabel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>Center</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="PyDMLineEdit" name="hCenterLineEdit">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="monitorDisp" stdset="0">
+      <bool>false</bool>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="2">
+    <widget class="PyDMLabel" name="hCenterLabel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3">
+    <widget class="PyDMLineEdit" name="vCenterLineEdit">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="4">
+    <widget class="PyDMLabel" name="vCenterLabel">
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="channel" stdset="0">
+      <string>ca://None</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>pydm.widgets.line_edit</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

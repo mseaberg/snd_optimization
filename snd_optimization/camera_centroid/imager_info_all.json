@@ -1,0 +1,177 @@
+{
+  "L0": {
+    "IM2L0": {
+      "prefix": "IM2L0:XTES:",
+      "wfs": "PF1L0"
+    },
+    "IM3L0": {
+      "prefix": "IM3L0:PPM:",
+      "mirror": "und"
+    },
+    "IM4L0": {
+      "prefix": "IM4L0:XTES:",
+      "mirror": "MR2L0:HOMS"
+    },
+    "IM5L0": {
+      "prefix": "IM5L0:PPM:",
+      "mirror": "MR2L0:HOMS",
+      "slit": "SL3L0:SCATTER:"
+    },
+    "xrt_yag1": {
+      "prefix": "XRT:DG1:GIGE:01:",
+      "motor": "HXX:UM6:",
+      "mirror": "MR2L0:HOMS",
+      "mms_num": "08",
+      "slit": "HXX:UM6:JAWS:"
+    },
+    "xrt_yag1b": {
+      "prefix": "XRT:HXM:GIGE:01:",
+      "motor": "HXX:HXM:",
+      "mms_num": "03"
+    },
+    "xrt_yag2": {
+      "prefix": "XRT:DG2:GIGE:01:",
+      "motor": "HFX:DG2:",
+      "mirror": "MR2L0:HOMS",
+      "mms_num": "09",
+      "slit": "HFX:DG2:JAWS:"
+    },
+    "xrt_yag3": {
+      "prefix": "XRT:DG3:GIGE:01:",
+      "motor": "HFX:DG3:",
+      "mirror": "MR2L0:HOMS",
+      "mms_num": "08",
+      "slit": "HFX:DG3:JAWS:"
+    }
+  },
+  "XPP": {
+      "IM1L2": {
+          "prefix": "IM1L2:PPM:",
+          "slit": "SL1L2:POWER:"
+      },
+      "IM2L2": {
+          "prefix": "IM2L2:PPM:",
+          "wfs": "PF2L2"
+      }
+  },
+  "XCS": {
+    "xcs_yag3": {
+      "prefix": "XRT:DG3:GIGE:02:",
+      "motor": "XCS:DG3:",
+      "mms_num": "17",
+      "mirror": "MR1L3:HOMS",
+      "slit": "XCS:DG3:JAWS:"
+    },
+    "xcs_yag5": {
+      "prefix": "XCS:GIGE:04:",
+      "motor": "XCS:SB2:",
+      "mms_num": "42",
+      "slit": "XCS:SB2:US:JAWS:"
+    }
+  },
+  "MEC": {
+    "mec_yag1": {
+      "prefix": "MEC:GIGE:14:",
+      "motor": "MEC:HXM:",
+      "mms_num": "08",
+      "mirror": "MR1L4:HOMS"
+    }
+  },
+  "MFX": {
+    "mfx_dia_yag": {
+      "prefix": "MFX:GIGE:DIA:YAG:",
+      "motor": "MFX:DIA:",
+      "mms_num": "04",
+      "mirror": "MR1L4:HOMS"
+    },
+    "mfx_dg1_yag": {
+      "prefix": "MFX:GIGE:DG1:YAG:",
+      "motor": "MFX:DG1:",
+      "mms_num": "09",
+      "mirror": "MR1L4:HOMS",
+      "slit": "MFX:DG1:JAWS:"
+    }
+
+  },
+  "K0": {
+    "IM1K0": {
+      "prefix": "IM1K0:XTES:"
+    },
+    "IM2K0": {
+      "prefix": "IM2K0:XTES:",
+      "wfs": "PF1K0"
+    }
+  },
+  "K1": {
+    "IM1K1": {
+      "prefix": "IM1K1:PPM:"
+    },
+    "IM2K1": {
+      "prefix": "IM2K1:PPM:"
+    }
+  },
+  "K2": {
+    "SL1K2": {
+      "prefix": "SL1K2:EXIT:"
+    },
+    "IM1K2": {
+      "prefix": "IM1K2:PPM:"
+    },
+    "IM2K2": {
+      "prefix": "IM2K2:PPM:"
+    },
+    "IM3K2": {
+      "prefix": "IM3K2:PPM:"
+    },
+    "IM4K2": {
+      "prefix": "IM4K2:PPM:"
+    },
+    "IM5K2": {
+      "prefix": "IM5K2:PPM:",
+      "wfs": "PF1K2",
+      "hfm": "MR3K2:KBH",
+      "vfm": "MR4K2:KBV",
+      "hutch": "rix",
+      "IP": "qRIXS"
+    },
+    "IM6K2": {
+      "prefix": "IM6K2:PPM:",
+      "wfs": "PF2K2",
+      "hfm": "MR3K2:KBH",
+      "vfm": "MR4K2:KBV",
+      "hutch": "rix",
+      "IP": "chemRIXS"
+    }
+  },
+  "K3": {
+    "IM1K3": {
+      "prefix": "IM1K3:PPM:"
+    }
+  },
+  "K4": {
+    "IM1K4": {
+      "prefix": "IM1K4:XTES:"
+    },
+    "IM2K4": {
+      "prefix": "IM2K4:PPM:"
+    },
+    "IM3K4": {
+      "prefix": "IM3K4:PPM:"
+    },
+    "IM4K4": {
+      "prefix": "IM4K4:PPM:"
+    },
+    "IM5K4": {
+      "prefix": "IM5K4:PPM:",
+      "wfs": "PF1K4",
+      "hfm": "MR2K4:KBO",
+      "vfm": "MR3K4:KBO",
+      "hutch": "tmo",
+      "IP": "IP1"
+    },
+    "IM6K4": {
+      "prefix": "IM6K4:PPM:",
+      "wfs": "PF2K4"
+    }
+  }
+}

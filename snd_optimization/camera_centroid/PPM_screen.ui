@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>919</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Beam Alignment</string>
+  </property>
+  <property name="iconSize">
+   <size>
+    <width>20</width>
+    <height>20</height>
+   </size>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="0" colspan="2">
+     <widget class="QGroupBox" name="imageGroupBox">
+      <property name="sizePolicy">
+       <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+        <horstretch>0</horstretch>
+        <verstretch>0</verstretch>
+       </sizepolicy>
+      </property>
+      <property name="title">
+       <string>Imager</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="1">
+        <widget class="QGroupBox" name="groupBox_2">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Imager Controls</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="ImagerControls" name="imagerControls" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>200</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="1" rowspan="2">
+        <widget class="QGroupBox" name="groupBox_3">
+         <property name="minimumSize">
+          <size>
+           <width>300</width>
+           <height>300</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>400</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="title">
+          <string>Imager Stats</string>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="ImagerStats" name="imagerStats" native="true">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>256</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QFrame" name="frame">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QGroupBox" name="levelsGroupBox">
+            <property name="minimumSize">
+             <size>
+              <width>100</width>
+              <height>100</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>300</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Levels</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+              <widget class="LevelsWidget" name="levelsWidget" native="true"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="crosshairGroupBox">
+            <property name="minimumSize">
+             <size>
+              <width>516</width>
+              <height>135</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>800</width>
+              <height>16777215</height>
+             </size>
+            </property>
+            <property name="title">
+             <string>Crosshairs (μm)</string>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="CrosshairWidget" name="crosshairsWidget" native="true"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QGroupBox" name="slitGroupBox">
+            <property name="title">
+             <string>No associated slits</string>
+            </property>
+            <layout class="QGridLayout" name="gridLayout_3">
+             <item row="0" column="0">
+              <widget class="SlitControls" name="slitControls" native="true"/>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="0" column="0" rowspan="3">
+        <widget class="LineoutImage" name="imageWidget" native="true">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>420</width>
+           <height>420</height>
+          </size>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QFrame" name="frame_5">
+      <property name="minimumSize">
+       <size>
+        <width>750</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_5">
+         <property name="text">
+          <string>Photon Energy:</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="PyDMLabel" name="photonEnergyLabel">
+         <property name="toolTip">
+          <string/>
+         </property>
+         <property name="text">
+          <string>9499.4 eV</string>
+         </property>
+         <property name="precision" stdset="0">
+          <number>1</number>
+         </property>
+         <property name="showUnits" stdset="0">
+          <bool>true</bool>
+         </property>
+         <property name="precisionFromPV" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="alarmSensitiveContent" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="alarmSensitiveBorder" stdset="0">
+          <bool>true</bool>
+         </property>
+         <property name="PyDMToolTip" stdset="0">
+          <string/>
+         </property>
+         <property name="channel" stdset="0">
+          <string>ca://PMPS:LFE:PE:UND:CurrentPhotonEnergy_RBV</string>
+         </property>
+         <property name="enableRichText" stdset="0">
+          <bool>false</bool>
+         </property>
+         <property name="buddy">
+          <cstring></cstring>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="4">
+        <widget class="QFrame" name="frame_2">
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="minimumSize">
+             <size>
+              <width>170</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>AT2L0 Transmission</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMLabel" name="TransmissionRBVLabel">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="channel" stdset="0">
+             <string>ca://AT2L0:CALC:SYS:ActualTransmission_RBV</string>
+            </property>
+            <property name="displayFormat" stdset="0">
+             <enum>PyDMLabel::Exponential</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="PyDMLineEdit" name="TransmissionLineEdit">
+            <property name="toolTip">
+             <string/>
+            </property>
+            <property name="channel" stdset="0">
+             <string>ca://AT2L0:CALC:SYS:DesiredTransmission</string>
+            </property>
+            <property name="displayFormat" stdset="0">
+             <enum>PyDMLineEdit::Exponential</enum>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="applyTransmissionButton">
+            <property name="text">
+             <string>Apply</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QComboBox" name="lineComboBox">
+         <property name="currentText">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="imagerComboBox">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="plotButton">
+         <property name="text">
+          <string>New Plot</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QPushButton" name="alignmentButton">
+         <property name="text">
+          <string>Align</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="4">
+        <widget class="QCheckBox" name="calibrateCheckBox">
+         <property name="text">
+          <string>Recalibrate</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="5">
+        <widget class="QPushButton" name="referenceButton">
+         <property name="minimumSize">
+          <size>
+           <width>120</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>Set Reference</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QFrame" name="frame">
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_4">
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QHBoxLayout" name="horizontalLayout_2">
+          <item>
+           <widget class="AverageWidget" name="averageWidget" native="true"/>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>16777215</width>
+           <height>25</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1200</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_with_hdf5_plugin"/>
+    <addaction name="actionPost_to_elog"/>
+   </widget>
+   <widget class="QMenu" name="menuOrientation">
+    <property name="title">
+     <string>Orientation</string>
+    </property>
+    <addaction name="action0"/>
+    <addaction name="action90"/>
+    <addaction name="action180"/>
+    <addaction name="action270"/>
+    <addaction name="action0_flip"/>
+    <addaction name="action90_flip"/>
+    <addaction name="action180_flip"/>
+    <addaction name="action270_flip"/>
+    <addaction name="actionSave_orientation"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionOpen_Confluence_Help"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuOrientation"/>
+   <addaction name="menuHelp"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save image</string>
+   </property>
+  </action>
+  <action name="actionSave_screenshot">
+   <property name="text">
+    <string>Save screenshot</string>
+   </property>
+  </action>
+  <action name="actionAlignment_Screen">
+   <property name="text">
+    <string>Alignment Screen</string>
+   </property>
+  </action>
+  <action name="action0">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </action>
+  <action name="action90">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>90</string>
+   </property>
+  </action>
+  <action name="action270">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>270</string>
+   </property>
+  </action>
+  <action name="action0_flip">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>0 flip</string>
+   </property>
+  </action>
+  <action name="action90_flip">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>90 flip</string>
+   </property>
+  </action>
+  <action name="action180_flip">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>180 flip</string>
+   </property>
+  </action>
+  <action name="action270_flip">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>270 flip</string>
+   </property>
+  </action>
+  <action name="action180">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>180</string>
+   </property>
+  </action>
+  <action name="actionSave_orientation">
+   <property name="text">
+    <string>Save orientation</string>
+   </property>
+  </action>
+  <action name="actionSave_with_hdf5_plugin">
+   <property name="text">
+    <string>Save with hdf5 plugin</string>
+   </property>
+  </action>
+  <action name="actionReset_Plots">
+   <property name="text">
+    <string>Reset Plots</string>
+   </property>
+  </action>
+  <action name="actionSave_Data">
+   <property name="text">
+    <string>Save Data</string>
+   </property>
+  </action>
+  <action name="actionSave_Images">
+   <property name="text">
+    <string>Save Images</string>
+   </property>
+  </action>
+  <action name="actionPost_to_elog">
+   <property name="text">
+    <string>Post to elog</string>
+   </property>
+  </action>
+  <action name="actionOpen_Confluence_Help">
+   <property name="text">
+    <string>Open Confluence Help</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>pydm.widgets.line_edit</header>
+  </customwidget>
+  <customwidget>
+   <class>LineoutImage</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>LevelsWidget</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>CrosshairWidget</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AverageWidget</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ImagerControls</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>ImagerStats</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>SlitControls</class>
+   <extends>QWidget</extends>
+   <header>PPM_widgets</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

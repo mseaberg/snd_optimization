@@ -1,0 +1,158 @@
+{
+    "L0": {
+        "IM2L0": {
+            "prefix": "IM2L0:XTES:",
+            "wfs": "PF1L0"
+        },
+        "IM3L0": {
+            "prefix": "IM3L0:PPM:",
+            "mirror": "und",
+            "calib_x": -3.0086688842656066,
+            "calib_y": 3.0179042597616164,
+            "tol": 20
+        },
+        "IM4L0": {
+            "prefix": "IM4L0:XTES:"
+        },
+        "IM5L0": {
+            "prefix": "IM5L0:PPM:",
+            "mirror": "MR2L0:HOMS",
+            "slit": "SL3L0:SCATTER:",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 30
+        },
+        "xrt_yag1": {
+            "prefix": "XRT:DG1:GIGE:01:",
+            "motor": "HXX:UM6:",
+            "mirror": "MR2L0:HOMS",
+            "mms_num": "08",
+            "slit": "HXX:UM6:JAWS:",
+            "calib_x": -92.97945464202459,
+            "calib_y": 1.9204823908149204,
+            "tol": 50
+        },
+        "xrt_yag1b": {
+            "prefix": "XRT:HXM:GIGE:01:",
+            "motor": "HXX:HXM:",
+            "mms_num": "03"
+        },
+        "xrt_yag2": {
+            "prefix": "XRT:DG2:GIGE:01:",
+            "motor": "HFX:DG2:",
+            "mirror": "MR2L0:HOMS",
+            "mms_num": "09",
+            "slit": "HFX:DG2:JAWS:",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        },
+        "xrt_yag3": {
+            "prefix": "XRT:DG3:GIGE:01:",
+            "motor": "HFX:DG3:",
+            "mirror": "MR2L0:HOMS",
+            "mms_num": "08",
+            "slit": "HFX:DG3:JAWS:",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        }
+    },
+    "CXI": {
+        "cxi_dg1_yag": {
+            "prefix": "CXI:DG1:GIGE:",
+            "motor": "CXI:DG1:",
+            "mms_num": "08",
+            "slit": "CXI:DG1:JAWS:",
+            "mirror": "MR2L0:HOMS",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        }
+    },
+    "XPP": {
+        "IM1L2": {
+            "prefix": "IM1L2:PPM:",
+            "slit": "SL1L2:POWER:"
+        },
+        "IM2L2": {
+            "prefix": "IM2L2:PPM:",
+            "wfs": "PF2L2"
+        }
+    },
+    "XCS": {
+        "xcs_yag3": {
+            "prefix": "XRT:DG3:GIGE:02:",
+            "motor": "XCS:DG3:",
+            "mms_num": "17",
+            "mirror": "MR1L3:HOMS",
+            "slit": "XCS:DG3:JAWS:",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        },
+        "xcs_yag5": {
+            "prefix": "XCS:GIGE:04:",
+            "motor": "XCS:SB2:",
+            "mms_num": "42",
+            "slit": "XCS:SB2:US:JAWS:"
+        },
+        "snd_di": {
+            "prefix": "XCS:GIGE:21:"
+        },
+        "snd_dd": {
+            "prefix": "XCS:GIGE:SND:DD:"
+        },
+        "snd_do": {
+            "prefix": "XCS:GIGE:25:"
+        }
+    },
+    "MEC": {
+        "mec_yag1": {
+            "prefix": "MEC:GIGE:14:",
+            "motor": "MEC:HXM:",
+            "mms_num": "08",
+            "mirror": "MR1L4:HOMS",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        },
+        "mec_yag3": {
+            "prefix": "MEC:GIGE:13:",
+            "motor": "MEC:HXM:",
+            "mms_num": "08",
+            "mirror": "MR1L4:HOMS",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        }
+    },
+    "MFX": {
+        "mfx_dia_yag": {
+            "prefix": "MFX:GIGE:DIA:YAG:",
+            "motor": "MFX:DIA:",
+            "mms_num": "04",
+            "mirror": "MR1L4:HOMS",
+            "calib_x": 0,
+            "calib_y": 0,
+            "tol": 50
+        },
+        "mfx_dg1_yag": {
+            "prefix": "MFX:GIGE:DG1:YAG:",
+            "motor": "MFX:DG1:",
+            "mms_num": "09",
+            "mirror": "MR1L4:HOMS",
+            "slit": "MFX:DG1:JAWS:",
+            "calib_x": 281.53995768360164,
+            "calib_y": -6.406907717189053,
+            "tol": 50
+        },
+        "mfx_dg2_yag": {
+            "prefix": "MFX:GIGE:DG2:YAG:",
+            "motor": "MFX:DG2:",
+            "mms_num": "08",
+            "slit": "MFX:DG2:JAWS:US:"
+        }
+    }
+
+}

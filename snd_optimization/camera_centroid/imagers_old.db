@@ -1,0 +1,55 @@
+{
+    "IM1L0": {
+        "pixel": 4.684816970240035,
+        "zoom": 94.7,
+        "focus": 75.6,
+        "ND": "T100",
+        "AcquireTime": 0.008
+    },
+    "IM3L0": {
+        "pixel": 2.7216615182062647,
+        "zoom": 0,
+        "focus": 0,
+        "ND": "T100",
+        "AcquireTime": 0.008
+    },
+    "IM2L0": {
+        "pixel": 4.866571293575977,
+        "zoom": 175.2,
+        "focus": 9.9,
+        "ND": "T100",
+        "AcquireTime": 0.008
+    },
+    "IM4L0": {
+        "pixel": 5.1939823097578035,
+        "zoom": 119.7,
+        "focus": -5.0,
+        "ND": "T100",
+        "AcquireTime": 0.008
+    },
+    "IM1K0": {
+        "pixel": 1.0
+    },
+    "IM2K0": {
+        "pixel": 5.4,
+        "zoom": 190.4,
+        "focus": 9.64,
+        "ND": "T50",
+        "AcquireTime": 0.001
+    },
+    "IM2K4": {
+        "pixel": 4.525624814314197,
+        "orientation": "action180_flip"
+    },
+    "IM5K4": {
+        "pixel": 4.580303353221568
+    },
+    "IM4K4": {
+        "pixel": 2.7314367678972165,
+        "orientation": "action180_flip"
+    },
+    "IM3K4": {
+        "pixel": 4.594732749964082,
+        "orientation": "action180_flip"
+    }
+}
