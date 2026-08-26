@@ -10,7 +10,7 @@ import time
 
 from types import SimpleNamespace
 from hxrsnd.sndsystem import SplitAndDelay
-sys.path.append("/cds/home/s/seaberg/dev/lcls_beamline_toolbox")
+#sys.path.append("/cds/home/s/seaberg/dev/lcls_beamline_toolbox")
 
 
 #from lcls_beamline_toolbox.models.split_and_delay_motion import SND
